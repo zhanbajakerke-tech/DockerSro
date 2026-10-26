@@ -14,7 +14,8 @@ docker run -d -p 8080:80 --name my-site my-html-app
 
 Сайт `http://localhost:8080` мекенжайында ашылады.
 
-![Сайт](images/site.png)
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/adf64f6c-1546-4fc6-a3e4-98365aa97054" />
+
 
 ## 2. Docker-да PostgreSQL базасы
 
@@ -33,7 +34,8 @@ docker run -d --name my-db2 -e POSTGRES_PASSWORD=<құпия сөз> -p 5434:543
 docker exec -it my-db2 psql -U postgres -d testdb -c "SELECT * FROM students;"
 ```
 
-![База](images/db.png)
+<img width="1600" height="899" alt="WhatsApp Image 2026-10-26 at 22 36 03" src="https://github.com/user-attachments/assets/aaf1587d-ba21-4f80-81d6-3731abe74cd5" />
+<img width="1600" height="435" alt="WhatsApp Image 2026-10-26 at 22 36 03 (1)" src="https://github.com/user-attachments/assets/0f210168-9468-40a7-8fc6-c5a6e4478ff9" />
 
 ## 3. Docker Hub
 
@@ -55,4 +57,5 @@ docker push akerke2007/postgres-base:v1
 | `akerke2007/my-postgres:v1` | PostgreSQL + `students` кестесі |
 | `akerke2007/postgres-base:v1` | базалық PostgreSQL 18 образы |
 
-![Docker Hub](images/hub.png)
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/1648c6a0-bc3e-4ca3-88fa-57220211b90f" />
+
